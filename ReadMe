@@ -1,0 +1,29 @@
+DATA MINING
+CSE 601
+HOME WORK 2
+
+TEAM MEMBERS:
+Team Members:
+Kunal Phapunkar (kunalpha@buffalo.edu)
+Rishi Baldawa	(rishibal@buffalo.edu)
+Vaibhav Porwal	(vaibhavp@buffalo.edu)
+
+
+Tested on Eclipse IDE Open-JDK-6 Envoirnment.
+
+
+Files:
+Apriori.java
+Main java program. This file should be run.
+
+CombinatorGenerator.java
+Used for combination of elements. Supporting main function.
+
+asso.txt
+Data-set
+
+Instructions to run the file:
+After compiling,
+when the program asks for file name insert 'asso.txt'
+when the program asks for confidence, we have tested for '0.5' only. So insert '0.5'.
+when the program asks for support, we have tested for 0.3 to 0.7. So insert anything in between.

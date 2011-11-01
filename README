@@ -1,0 +1,29 @@
+Following in an apriori algorithm implementation. 
+
+Data needs to be in following format:
+1	Bread	Milk
+2	Bread	Diaper	Beer	Eggs
+3	Milk	Diaper	Beer	Coke
+4	Bread	Milk	Diaper	Beer
+5	Bread	Milk	Diaper	 Coke 
+
+Pointers: Everything is sepearated using tabs aka '\t'. Sample Name can be anything, it is ignored. No need to item column name or fixed number of columns. Possible to make the system more scalable. 
+
+NOTE: Strings are used for manipulation instead of vectors/ints/arrays so that the system is easy to work for any type of data.
+
+Same test files are included.
+Asso.txt
+Asso1.txt
+Asso2.txt 
+
+
+To test the file,
+Compile the Apriori.Java
+Run Apriori
+Type in the file name (with proper dirs if necessary)
+Enter the confidence and support (necessary for apriori algo)
+Enter any rule if needed.
+
+Ouput for the last two will be shown if part of data fits the criteria. 
+
+
